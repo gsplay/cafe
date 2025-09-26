@@ -18,6 +18,13 @@
       margin: 0 auto;
       padding: 2rem;
     }
+    .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem; /* espacio entre logo y tagline */
+    margin-bottom: 2rem; /* espacio antes de la cabecera */
+    }
     .logo {
       width: 40%;       /* ocupa 40% del ancho del contenedor */
       max-width: 160px; /* nunca más grande que 160px */
@@ -28,10 +35,10 @@
     }
     .tagline {
     font-family: 'Reem Kufi', sans-serif;
+    font-size: 1rem;
+    color: #444;
     font-weight: 400;
-    font-size: 1rem; /* un poco más pequeño que el logo */
-    color: #444; /* gris oscuro para diferenciar del negro de los botones */
-    margin-top: 0.5rem;
+    margin: 0; /* espacio controlado por flex gap */
     }
     .header-img {
       width: 100%;
@@ -76,12 +83,15 @@
 </head>
 <body>
   <div class="container">
+    <div class="logo-container">
     <!-- Logo en SVG -->
     <img src="/logo.svg" alt="Moli Café" class="logo">
 
     <!-- Tagline -->
 <p class="tagline">el café es la excusa</p>
+    </div>
 
+    
     <!-- Imagen de cabecera -->
     <img src="/header.jpg" alt="Café en movimiento" class="header-img">
 
