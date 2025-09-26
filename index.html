@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moli Café</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .logo {
+      max-width: 150px;
+      margin: 0 auto 1rem;
+    }
+    .header-img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+    .link {
+      display: block;
+      padding: 1rem;
+      margin: 0.75rem 0;
+      border: 1px solid #000;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+      transition: all 0.2s ease;
+    }
+    .link:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="logo.png" alt="Moli Café" class="logo">
+
+    <!-- Imagen de cabecera -->
+    <img src="header.jpg" alt="Café en movimiento" class="header-img">
+
+    <!-- Links -->
+    <a href="https://instagram.com/tucuenta" class="link">Instagram</a>
+    <a href="https://tiktok.com/@tucuenta" class="link">TikTok</a>
+    <a href="https://youtube.com/@tucuenta" class="link">YouTube</a>
+    <a href="https://kick.com/tucuenta" class="link">Ver en stream en Kick</a>
+    
+    <!-- Email protegido -->
+    <a href="javascript:void(0)" class="link" onclick="window.location.href='mailto:' + 'cafe' + '@' + 'moli.ar'">
+      Enviar Email
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Moli</p>
+    </footer>
+  </div>
+</body>
+</html>
