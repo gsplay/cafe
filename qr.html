@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR | Moli Café</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2348JBPSB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    // Registramos el evento de escaneo
+    gtag('event','qr_scan',{ 
+      'event_category':'QR',
+      'event_label':'Flyer'
+    });
+
+    // Redirección después de 500ms (medio segundo)
+    setTimeout(function(){
+      window.location.href = "/";
+    }, 500);
+  </script>
+</head>
+<body style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;">
+  <p>☕ Café?... un momento...</p>
+</body>
+</html>
