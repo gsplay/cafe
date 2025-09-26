@@ -19,8 +19,12 @@
       padding: 2rem;
     }
     .logo {
-      max-width: 150px;
+      width: 40%;       /* ocupa 40% del ancho del contenedor */
+      max-width: 160px; /* nunca más grande que 160px */
+      min-width: 100px; /* nunca más chico que 100px */
+      height: auto;
       margin: 0 auto 1rem;
+      display: block;
     }
     .header-img {
       width: 100%;
@@ -52,8 +56,8 @@
 </head>
 <body>
   <div class="container">
-    <!-- Logo -->
-    <img src="logo.png" alt="Moli Café" class="logo">
+    <!-- Logo en SVG -->
+    <img src="logo.svg" alt="Moli Café" class="logo">
 
     <!-- Imagen de cabecera -->
     <img src="header.jpg" alt="Café en movimiento" class="header-img">
