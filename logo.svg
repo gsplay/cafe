@@ -63,31 +63,37 @@
        transform="matrix(0.21191717,0,0,0.21191717,-90.209738,383.35933)"
        inkscape:export-xdpi="102"
        inkscape:export-ydpi="102">
-      <text
+      <g
+         aria-label="moli"
          transform="scale(1.0159324,0.98431747)"
-         inkscape:export-ydpi="102"
-         inkscape:export-xdpi="102"
-         id="text547-2-8-8-4-3-6"
-         y="-1419.0852"
-         x="648.6629"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.32144928px;line-height:1.25;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.55667126"
-         xml:space="preserve"><tspan
+         id="text547-2-8-8-4-3-6">
+        <path
+           d="m 664.18755,-1457.2576 0.82189,8.3103 -0.4566,-0.7306 q 2.10039,-4.2921 5.93589,-6.6665 3.92682,-2.4656 8.9495,-2.4656 4.74872,0 7.94497,2.1917 3.19625,2.1917 3.92682,6.2098 l -0.45661,0.3653 q 2.28304,-4.1094 6.11854,-6.3925 3.8355,-2.3743 8.03629,-2.3743 5.66193,0 8.9495,3.1962 3.28757,3.1049 3.37889,8.2189 v 28.3097 h -9.13214 v -24.8394 q -0.0913,-2.9223 -1.36982,-4.8401 -1.18718,-1.9177 -4.38343,-2.1004 -3.28758,0 -5.84458,2.0091 -2.46568,2.0091 -3.92682,5.2053 -1.36982,3.1963 -1.46114,6.8491 v 17.7164 h -9.22347 v -24.8394 q -0.0913,-2.9223 -1.46114,-4.8401 -1.2785,-1.9177 -4.47475,-2.1004 -3.19625,0 -5.75325,2.0091 -2.46568,2.0091 -3.8355,5.2966 -1.36983,3.1963 -1.36983,6.8492 v 17.625 h -9.22346 v -38.1724 z"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.32144928px;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.55667126"
-           y="-1419.0852"
-           x="648.6629"
-           id="tspan545-5-5-0-8-3-7"
-           sodipodi:role="line">moli</tspan></text>
-      <text
-         id="text966-53"
-         y="-1396.4198"
-         x="626.31824"
+           id="path171" />
+        <path
+           d="m 728.47779,-1438.5367 q 0,-5.7532 2.73965,-10.3193 2.73964,-4.6574 7.57968,-7.3057 4.84003,-2.6483 11.04989,-2.6483 6.30118,0 10.95858,2.6483 4.74871,2.6483 7.30571,7.3057 2.64833,4.5661 2.64833,10.3193 0,5.7533 -2.64833,10.4107 -2.64832,4.566 -7.39703,7.3057 -4.6574,2.6483 -11.0499,2.6483 -6.02722,0 -10.86725,-2.4657 -4.74872,-2.4656 -7.57968,-7.0317 -2.73965,-4.6574 -2.73965,-10.8673 z m 9.31479,0.091 q 0,3.5616 1.55247,6.4839 1.55246,2.8309 4.20078,4.566 2.73965,1.6438 6.02722,1.6438 5.20532,0 8.49289,-3.6528 3.3789,-3.6529 3.3789,-9.0409 0,-5.3879 -3.3789,-9.0408 -3.28757,-3.7442 -8.49289,-3.7442 -3.37889,0 -6.02722,1.7352 -2.64832,1.7351 -4.20078,4.6573 -1.55247,2.9223 -1.55247,6.3925 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.32144928px;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.55667126"
+           id="path173" />
+        <path
+           d="m 781.90083,-1490.042 h 9.22346 v 70.9568 h -9.22346 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.32144928px;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.55667126"
+           id="path175" />
+        <path
+           d="m 805.55297,-1457.2576 h 9.22347 v 38.1724 h -9.22347 z m -0.45661,-13.6982 q 0,-2.1004 1.64379,-3.5615 1.73511,-1.4612 3.74418,-1.4612 2.00907,0 3.65286,1.4612 1.64378,1.4611 1.64378,3.5615 0,2.283 -1.64378,3.6529 -1.64379,1.3698 -3.65286,1.3698 -2.00907,0 -3.74418,-1.3698 -1.64379,-1.3699 -1.64379,-3.6529 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.32144928px;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.55667126"
+           id="path177" />
+      </g>
+      <g
+         aria-label="."
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:179.76672363px;line-height:1.25;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.06421256"
-         xml:space="preserve"><tspan
+         id="text966-53">
+        <path
+           d="m 641.95794,-1396.4198 q -4.8537,0 -8.98833,-3.4156 -3.95487,-3.5953 -3.95487,-9.5276 0,-5.5728 3.95487,-9.3479 4.13463,-3.7751 8.98833,-3.7751 4.49417,0 8.44904,3.7751 4.13463,3.7751 4.13463,9.3479 0,5.9323 -4.13463,9.5276 -3.95487,3.4156 -8.44904,3.4156 z"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:179.76672363px;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:3.06421256"
-           y="-1396.4198"
-           x="626.31824"
-           id="tspan964-5"
-           sodipodi:role="line">.</tspan></text>
+           id="path180" />
+      </g>
     </g>
   </g>
 </svg>
