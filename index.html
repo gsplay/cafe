@@ -5,26 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moli Café</title>
 
-  <link rel="manifest" href="/manifest.json">
+  <!-- Manifest & Favicon -->
+  <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#000000">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content=".moli" />
-  <link rel="manifest" href="/site.webmanifest" />
-
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
   <!-- SEO Meta -->
   <meta name="description" content="Moli Café: café artesanal y experiencias únicas. El café es la excusa.">
-  <meta name="keywords" content="café, café artesanal, Moli, café en movimiento, espresso, filtro">
   
   <!-- Open Graph -->
   <meta property="og:title" content="Moli Café">
   <meta property="og:description" content="Descubre Moli Café: el café es la excusa. Síguenos en Instagram, TikTok, YouTube y más.">
-  <meta property="og:image" content="/header.webp">
+  <meta property="og:image" content="https://moli.ar/header.webp">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://moli.ar">
 
@@ -106,18 +104,16 @@
       margin-top: 3rem;
       padding-top: 1rem;
     }
-
     .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}
-
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
   </style>
 
   <!-- JSON-LD Organization -->
@@ -140,13 +136,13 @@
 <body>
   <div class="container">
     <div class="logo-container">
-      <img src="/logo.svg" alt="Moli Café" class="logo">
+      <img src="/logo.svg" alt="Moli Café" class="logo" width="160" height="160">
       <h1 class="visually-hidden">Moli Café</h1>
       <h2 class="tagline">el café es la excusa</h2>
     </div>
 
     <!-- Imagen de cabecera -->
-    <img src="/header.webp" alt="Café en movimiento" class="header-img" loading="lazy">
+    <img src="/header.webp" alt="Café en movimiento" class="header-img" width="500" height="300" loading="lazy">
 
     <!-- Links -->
     <a href="https://instagram.com/tucuenta" title="Instagram de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
