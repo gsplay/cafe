@@ -4,6 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moli Café</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Moli Café: café artesanal y experiencias únicas. El café es la excusa.">
+  <meta name="keywords" content="café, café artesanal, Moli, café en movimiento, espresso, filtro">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Moli Café">
+  <meta property="og:description" content="Descubre Moli Café: el café es la excusa. Síguenos en Instagram, TikTok, YouTube y más.">
+  <meta property="og:image" content="/header.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://moli.ar">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2348JBPSB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C2348JBPSB');
+  </script>
+
+  <!-- Styles -->
   <style>
     body {
       margin: 0;
@@ -22,17 +44,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 0.5rem; /* separación equilibrada */
-      margin-bottom: 2rem; /* espacio antes de la cabecera */
-      }
-
-    .logo {
-      width: 40%;       /* ocupa 40% del ancho del contenedor */
-      max-width: 160px; /* nunca más grande que 160px */
-      min-width: 100px; /* nunca más chico que 100px */
-      height: auto;
-      margin: 0 auto;
-      display: block;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
     }
     .tagline {
       font-family: 'Reem Kufi', sans-serif;
@@ -41,12 +58,21 @@
       font-weight: 400;
       margin: 0;
     }
+    .logo {
+      width: 40%;
+      max-width: 160px;
+      min-width: 100px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
     .header-img {
       width: 100%;
       max-width: 500px;
       border-radius: 12px;
       margin-bottom: 1rem;
-      max-height: 300px; object-fit: cover;
+      max-height: 300px;
+      object-fit: cover;
     }
     .link {
       display: block;
@@ -64,85 +90,65 @@
       color: #fff;
     }
     footer {
-  border-top: 1px solid #ccc;
-  margin-top: 3rem;
-  padding-top: 1rem;
+      border-top: 1px solid #ccc;
+      margin-top: 3rem;
+      padding-top: 1rem;
     }
   </style>
-  
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C2348JBPSB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-C2348JBPSB');
-</script>
-   <!-- Google tag (gtag.js) -->
-  
+  <!-- JSON-LD Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Moli Café",
+    "url": "https://moli.ar",
+    "logo": "https://moli.ar/logo.svg",
+    "sameAs": [
+      "https://instagram.com/tucuenta",
+      "https://tiktok.com/@tucuenta",
+      "https://youtube.com/@tucuenta",
+      "https://kick.com/tucuenta"
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="container">
     <div class="logo-container">
-    <!-- Logo en SVG -->
-    <img src="/logo.svg" alt="Moli Café" class="logo">
-
-    <!-- Tagline -->
-<p class="tagline">el café es la excusa</p>
+      <img src="/logo.svg" alt="Moli Café" class="logo">
+      <h1>Moli Café</h1>
+      <h2 class="tagline">el café es la excusa</h2>
     </div>
 
-    
     <!-- Imagen de cabecera -->
-    <img src="/header.webp" alt="Café en movimiento" class="header-img">
+    <img src="/header.webp" alt="Café en movimiento" class="header-img" loading="lazy">
 
     <!-- Links -->
+    <a href="https://instagram.com/tucuenta" title="Instagram de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
+       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Instagram'});">
+       Instagram
+    </a>
 
-    
-    <!-- Instagram -->
-<a href="https://instagram.com/tucuenta" class="link" target="_blank" rel="noopener noreferrer"
-   onclick="gtag('event', 'click', {
-     'event_category': 'link',
-     'event_label': 'Instagram'
-   });">
-   Instagram
-</a>
-    <!-- FIN Instagram -->
-    
-   <!-- TikTok -->
-<a href="https://tiktok.com/@tucuenta" class="link" target="_blank" rel="noopener noreferrer"
-   onclick="gtag('event', 'click', {
-     'event_category': 'link',
-     'event_label': 'TikTok'
-   });">
-   TikTok
-</a>
-       <!-- FIN TikTok -->
+    <a href="https://tiktok.com/@tucuenta" title="TikTok de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
+       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'TikTok'});">
+       TikTok
+    </a>
 
-    <!-- YouTube -->
-<a href="https://youtube.com/@tucuenta" class="link" target="_blank" rel="noopener noreferrer"
-   onclick="gtag('event', 'click', {
-     'event_category': 'link',
-     'event_label': 'YouTube'
-   });">
-   YouTube
-</a>
-    <!-- FIN YouTube -->
+    <a href="https://youtube.com/@tucuenta" title="YouTube de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
+       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'YouTube'});">
+       YouTube
+    </a>
 
-    <!-- Stream -->
-   <a href="https://kick.com/tucuenta" class="link" target="_blank" rel="noopener noreferrer"
-   onclick="gtag('event', 'click', {
-     'event_category': 'link',
-     'event_label': 'Stream'
-   });">Ver stream</a>
-    <!-- FIN Stream -->
-    
-    <!-- Email protegido -->
-    <a href="javascript:void(0)" class="link" onclick="window.location.href='mailto:' + 'cafe' + '@' + 'moli.ar'">
+    <a href="https://kick.com/tucuenta" title="Stream de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
+       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Stream'});">
+       Ver stream
+    </a>
+
+    <a href="javascript:void(0)" class="link" title="Enviar email a Moli Café" onclick="window.location.href='mailto:' + 'cafe' + '@' + 'moli.ar'">
       Enviar Email
     </a>
 
-    <!-- Footer -->
     <footer>
       <p>© 2025 Moli</p>
     </footer>
