@@ -3,39 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moli Café</title>
+  <title>Frases — Moli Café</title>
+  <meta name="description" content="Frases filosóficas, estoicas y urbanas servidas por Moli Café. El café es la excusa.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-  <!-- Manifest & Favicon -->
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#000000">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content=".moli" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-  <!-- SEO Meta -->
-  <meta name="description" content="Moli Café: café artesanal y experiencias únicas. El café es la excusa.">
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="Moli Café">
-  <meta property="og:description" content="Descubre Moli Café: el café es la excusa. Síguenos en Instagram, TikTok, YouTube y más.">
-  <meta property="og:image" content="https://moli.ar/header.webp">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://moli.ar">
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2348JBPSB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-C2348JBPSB');
-  </script>
-
-  <!-- Styles -->
   <style>
     body {
       margin: 0;
@@ -43,141 +14,95 @@
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       background-color: #fff;
       color: #000;
-      text-align: center;
-    }
-    .container {
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-    .logo-container {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 2rem;
+      height: 100vh;
+      text-align: center;
+      flex-direction: column;
     }
-    h1 {
-      margin: 0;
-      font-size: 2rem;
+
+    .phrase {
+      max-width: 600px;
+      font-size: 1.5rem;
+      line-height: 1.4;
+      margin: 2rem;
+      transition: opacity 0.4s ease;
     }
-    .tagline {
-      font-family: 'Reem Kufi', sans-serif;
-      font-size: 1rem;
-      color: #444;
-      font-weight: 400;
-      margin: 0;
-    }
-    .logo {
-      width: 40%;
-      max-width: 160px;
-      min-width: 100px;
-      height: auto;
-      margin: 0 auto;
-      display: block;
-    }
-    .header-img {
-      width: 100%;
-      max-width: 500px;
-      border-radius: 12px;
-      margin-bottom: 1rem;
-      max-height: 300px;
-      object-fit: cover;
-    }
-    .link {
-      display: block;
-      padding: 1rem;
-      margin: 0.75rem 0;
+
+    .button {
       border: 1px solid #000;
-      border-radius: 12px;
-      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
       font-weight: bold;
-      color: #000;
+      background: transparent;
+      cursor: pointer;
       transition: all 0.2s ease;
     }
-    .link:hover {
+
+    .button:hover {
       background-color: #000;
       color: #fff;
     }
+
     footer {
-      border-top: 1px solid #ccc;
-      margin-top: 3rem;
-      padding-top: 1rem;
-    }
-    .visually-hidden {
       position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0,0,0,0);
-      border: 0;
+      bottom: 1rem;
+      font-size: 0.8rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .phrase {
+        font-size: 1.2rem;
+      }
     }
   </style>
-
-  <!-- JSON-LD Organization -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Moli Café",
-    "url": "https://moli.ar",
-    "logo": "https://moli.ar/logo.svg",
-    "sameAs": [
-      "https://instagram.com/moli.cafe.ar/",
-      "https://tiktok.com/@moli.cafe.ar",
-      "https://xyoutube.com/@molicafe",
-      "https://kick.com/molicafe"
-      "https://x.com/molicafe_ar"
-    ]
-  }
-  </script>
 </head>
 <body>
   <div class="container">
-    <div class="logo-container">
-      <img src="/logo.svg" alt="Moli Café" class="logo" width="160" height="160">
-      <h1 class="visually-hidden">Moli Café</h1>
-      <h2 class="tagline">el café es la excusa</h2>
-    </div>
-
-    <!-- Imagen de cabecera -->
-    <img src="/header.webp" alt="Café en movimiento" class="header-img" width="500" height="300" loading="lazy">
-
-    <!-- Links -->
-    <a href="https://www.instagram.com/moli.cafe.ar/" title="Instagram de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
-       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Instagram'});">
-       Instagram
-    </a>
-
-    <a href="https://www.tiktok.com/@moli.cafe.ar" title="TikTok de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
-       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'TikTok'});">
-       TikTok
-    </a>
-
-    <a href="https://www.youtube.com/@molicafe" title="YouTube de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
-       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'YouTube'});">
-       YouTube
-    </a>
-
-    <a href="https://kick.com/molicafe" title="Stream de Moli Café" class="link" target="_blank" rel="noopener noreferrer"
-       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Stream'});">
-       Ver stream
-    </a>
-
-    <a href="https://x.com/molicafe_ar" title="Sigueme en X" class="link" target="_blank" rel="noopener noreferrer"
-       onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'X'});">
-       Sigueme en X
-    </a>
-
-    <a href="javascript:void(0)" class="link" title="Enviar email a Moli Café" onclick="window.location.href='mailto:' + 'cafe' + '@' + 'moli.ar'">
-      Enviar Email
-    </a>
-
-    <footer>
-      <p>© 2025 Moli</p>
-    </footer>
+    <img src="/logo.svg" alt="Moli Café" width="100" height="100">
+    <p class="phrase" id="phrase"></p>
+    <button class="button" onclick="newPhrase()">Servime otra</button>
+    <footer>© 2025 Moli</footer>
   </div>
+
+  <script>
+    const frases = [
+      "Platón comprando granos en Once: 'lo bello sigue siendo lo justo, pero en promoción'.",
+      "Séneca diría que el espresso no se apura. Se sostiene.",
+      "Heráclito mirando el vapor del café: todo fluye, incluso la leche.",
+      "Epicteto en Constitución: 'no controlás el tren, pero sí tu respiración'.",
+      "Kant esperando su flat white: 'el deber antes que el deseo'.",
+      "Buda en Corrientes: 'el deseo es el azúcar del samsara'.",
+      "Camus revolviendo el café: 'absurdo, pero tibio'.",
+      "Plotino viendo llover: 'el Uno también se diluye a veces'.",
+      "Sócrates, antes del primer sorbo: 'solo sé que no dormí bien'.",
+      "Heráclito con auriculares: 'nadie entra dos veces al mismo track'.",
+      "Spinoza en un bar porteño: 'el cuerpo también piensa, che'.",
+      "Marco Aurelio al mozo: 'sirve sin esperar aplauso, y serás libre'.",
+      "Epicuro brindando con cortado: 'placer es no discutir hoy'.",
+      "Diógenes pidiendo wifi: 'busco un hombre, no una contraseña'.",
+      "Nietzsche al ver la cuenta: 'lo que no te mata te deja sin vuelto'.",
+      "Talmud porteño: 'cada mañana es un contrato renovado con el aroma'.",
+      "Lao Tse en la 9 de Julio: 'el que sabe fluir no teme al semáforo'.",
+      "Benjamin en el subte: 'cada viaje cotidiano guarda un relámpago de eternidad'.",
+      "Plotino y Borges comparten mesa: la unidad se parte en migas de medialuna.",
+      "Krishnamurti mirando el celular: 'observar sin notificación'."
+    ];
+
+    function newPhrase() {
+      const phraseEl = document.getElementById('phrase');
+      phraseEl.style.opacity = 0;
+      setTimeout(() => {
+        const random = frases[Math.floor(Math.random() * frases.length)];
+        phraseEl.textContent = random;
+        phraseEl.style.opacity = 1;
+      }, 300);
+    }
+
+    // Mostrar una frase al cargar
+    window.onload = newPhrase;
+  </script>
 </body>
 </html>
